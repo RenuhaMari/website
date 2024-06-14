@@ -1,0 +1,37 @@
+.courses11,.courses12{
+    display:inline-flex;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.courses12{
+    margin-top: 120px;
+}
+    
+.math{
+width: 16em;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 9px 15px;
+    margin:10px 30px;
+    font-size: 25px;
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+}
+.chem>img,.phy>img,.chem12>img,.math>img{
+    width:300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.head11{
+     font-size: 30px;
+     text-align: center;
+     color:#f1dfd3;
+     text-decoration: underline;
+}
+.head12{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+    color:#f1dfd3;
+    text-decoration: underline;
+}

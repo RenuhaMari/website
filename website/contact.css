@@ -1,0 +1,57 @@
+.reg{
+    margin-top: 100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    width: 30em;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 9px 15px;
+    
+}
+
+.reg h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:40px 0;
+
+}
+.reg p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.reg input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 90%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.reg button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding:10px 15px;
+    width:50%;
+    border:0;
+    border-radius: 5px;
+    background-color:#fefced ;
+}
+.reg select{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+body{
+    background-image:url("bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

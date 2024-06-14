@@ -1,0 +1,151 @@
+.box{
+    background:#697184;
+    padding-bottom: 10px;
+    border: 10px;
+    box-sizing: border-box;
+    display:inline-flex;
+    margin-left: 350px;
+    margin-bottom: 10px;
+
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box li{
+    margin-right: 25px;
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+.box li a{
+    color:#f1dfd3;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    background:#b1a6a4;
+
+}
+.images{
+    overflow: hidden;
+}
+.images figure{
+    margin-top: 10px;
+    position: relative;
+    width:350%;
+    height:100%;
+    margin:0;
+    left:0;
+    animation:10s images infinite;
+}
+.images figure img{
+    float:left;
+    width:10%;
+}
+@keyframes images{
+    0%{
+        left:-0%;
+    }
+    25%{
+        left: -50%;
+    }
+    50%{
+        left:-80%;
+    }
+}
+.why{
+    text-align:center;
+    font-size: 35px;
+    color:#fff;
+    text-decoration: underline;
+}
+.lists{
+    font-size: 25px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    color:#f1dfd3;
+}
+.list2{
+    margin-left: 300px;
+}
+.list1{
+    margin-left: 150px;
+}
+.offering{
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+    text-decoration: underline;
+    
+}
+.phy,.chem,.chem12{
+    width: 16em;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 9px 15px;
+    margin:10px 30px;
+    font-size: 25px;
+    
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+}
+.button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding:10px 15px;
+    width:30%;
+    border:0;
+    border-radius: 5px;
+    background-color: rgba(223, 163, 218, 0.3);
+}
+.courses{
+    display:inline-flex;
+}
+.line{
+    font-size: 30px;
+    color:#f1dfd3;
+}
+.quote{
+    font-size: 35px;
+    text-align: center;
+    color:#fff; 
+    text-decoration: underline;
+}
+.quotes{
+    display: inline-flex;
+    
+}
+.albert>img{
+    margin-left: 120px ;
+    margin-right:120px ;
+}
+.albert,.ben,.Gandhi{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color:#f1dfd3;
+   
+}
+.Gandhi>img{
+    margin-left: 120px ;
+    margin-right:120px ;
+}
+.ben>img{
+    margin-left: 120px ;
+    margin-right:120px ;
+
+
+}
+footer{
+    border: 3px solid;
+    box-shadow: 9px 6px 4px;
+    padding: 9px 15px;
+    margin:10px 30px;
+    font-size: 25px;
+    text-align: center;
+    color:#fff;
+}
+
